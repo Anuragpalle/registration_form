@@ -1,29 +1,36 @@
 <h1 id="heading">Fill the required fields below</h1>
-<form class="name" action="index.html" method="post">
-<table>
+<div class="nameAndAddress">
+<table class=nameTable>
   <tr>
     <td>
-      <label>First Name :</label>
+      <form class="name" action="index.html" method="post">
+        <label id="firstName">Name :</label> <br> <br>
+        <input type="text" required> <br><br>
+        <label id="middleName">Middle Name :</label> <br><br>
+        <input type="text" required> <br><br>
+        <label id="lastName">Last Name :</label> <br><br>
+        <input type="text" required>
+      </form>
     </td>
     <td>
-      <input type="text" name="" value="">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <label>Middel Name :</label>
-    </td>
-    <td>
-      <input type="text" name="" value="">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <label>Last Name :</label>
-    </td>
-    <td>
-      <input type="text" name="" value="">
+      <form class="" action="index.html" method="post">
+        <label class ="address">Address Line 1:</label><br><br>
+        <input type="text" required> <br><br>
+        <label class =address>Address Line 2:</label> <br> <br>
+        <input type="text"> <br><br>
+        <label class="address">Address Line 3:</label> <br><br>
+        <input type="text"> <br><br>
+        <label id="city">City :</label>
+          <select class="City">
+            <option value="chennai">Chennai</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="pune">Pune</option>
+            <option value="kolkata">Kolkata</option>
+          </select>
+      </form>
     </td>
   </tr>
 </table>
-</form>
+</div>
